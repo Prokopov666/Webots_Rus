@@ -1,9 +1,11 @@
-## Using Webots Makefiles
+## Использование файла Makefiles в Webots
 
-### What Are Makefiles
+### Что такое Makefiles
 
-The compilation of Webots C/C++ and Java controllers can be configured in the provided Makefiles.
-A controller's Makefile is a configuration file used by the `make` utility and that optionally specifies a list of source files and how they will be compiled and linked to create the executable program.
+Компиляция контроллеров Webots написанных на C/C++ или Java может быть настроена с помощью файлов Makefiles.
+Makefile контроллера - конфигурационный фаил используемый утилитой `make`, который опционально определяет список исходных файлов и как они будут скомпилированы и слинкованы для создания исполняемого файла.
+
+Обратите внимание, что интерпертируемые языки Python и *MATLAB*<sup>TM</sup> не нуждаются в Makefiles. Если вы используете 
 
 Note that Python and *MATLAB*<sup>TM</sup> are interpreted languages and therefore they don't need Makefiles.
 So if you are using any of these programming languages or Visual Studio then you can ignore this section.
